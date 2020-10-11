@@ -1,0 +1,100 @@
+imports:
+  - { resource: 'vendor/symplify/easy-coding-standard/config/set/clean-code.yaml' }
+  - { resource: 'vendor/symplify/easy-coding-standard/config/set/psr2.yaml' }
+  - { resource: 'vendor/symplify/easy-coding-standard/config/set/symfony.yaml' }
+  - { resource: 'vendor/symplify/easy-coding-standard/config/set/psr12.yaml' }
+
+services:
+  PhpCsFixer\Fixer\CastNotation\LowercaseCastFixer:  ~
+  PhpCsFixer\Fixer\Casing\LowercaseConstantsFixer:  ~
+  PhpCsFixer\Fixer\Casing\LowercaseKeywordsFixer:  ~
+  PhpCsFixer\Fixer\Casing\MagicConstantCasingFixer:  ~
+  PhpCsFixer\Fixer\FunctionNotation\MethodArgumentSpaceFixer:  ~
+  PhpCsFixer\Fixer\ClassNotation\MethodSeparationFixer:  ~
+  PhpCsFixer\Fixer\Basic\EncodingFixer:  ~
+  PhpCsFixer\Fixer\PhpTag\FullOpeningTagFixer:  ~
+  PhpCsFixer\Fixer\FunctionNotation\FunctionDeclarationFixer:  ~
+  PhpCsFixer\Fixer\FunctionNotation\FunctionTypehintSpaceFixer:  ~
+  PhpCsFixer\Fixer\Comment\HashToSlashCommentFixer:  ~
+  PhpCsFixer\Fixer\StringNotation\HeredocToNowdocFixer:  ~
+  PhpCsFixer\Fixer\ControlStructure\IncludeFixer:  ~
+  PhpCsFixer\Fixer\ClassNotation\ClassDefinitionFixer:  ~
+  PhpCsFixer\Fixer\Basic\BracesFixer:  ~
+  PhpCsFixer\Fixer\NamespaceNotation\BlankLineAfterNamespaceFixer:  ~
+  PhpCsFixer\Fixer\PhpTag\BlankLineAfterOpeningTagFixer:  ~
+  PhpCsFixer\Fixer\ReturnNotation\BlankLineBeforeReturnFixer: ~
+  PhpCsFixer\Fixer\LanguageConstruct\DeclareEqualNormalizeFixer:  ~
+  PhpCsFixer\Fixer\Casing\NativeFunctionCasingFixer:  ~
+  PhpCsFixer\Fixer\ClassNotation\NoBlankLinesAfterClassOpeningFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\NoBlankLinesAfterPhpdocFixer:  ~
+  PhpCsFixer\Fixer\PhpTag\NoClosingTagFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\NoEmptyPhpdocFixer:  ~
+  PhpCsFixer\Fixer\Semicolon\NoEmptyStatementFixer:  ~
+  PhpCsFixer\Fixer\Whitespace\NoExtraConsecutiveBlankLinesFixer:  ~
+  PhpCsFixer\Fixer\Import\NoLeadingImportSlashFixer:  ~
+  PhpCsFixer\Fixer\NamespaceNotation\NoLeadingNamespaceWhitespaceFixer:  ~
+  PhpCsFixer\Fixer\ArrayNotation\NoMultilineWhitespaceAroundDoubleArrowFixer:  ~
+  PhpCsFixer\Fixer\Semicolon\NoMultilineWhitespaceBeforeSemicolonsFixer:  ~
+  PhpCsFixer\Fixer\CastNotation\NoShortBoolCastFixer:  ~
+  PhpCsFixer\Fixer\Semicolon\NoSinglelineWhitespaceBeforeSemicolonsFixer:  ~
+  PhpCsFixer\Fixer\FunctionNotation\NoSpacesAfterFunctionNameFixer:  ~
+  PhpCsFixer\Fixer\Whitespace\NoSpacesInsideParenthesisFixer:  ~
+  PhpCsFixer\Fixer\PhpTag\NoShortEchoTagFixer:  ~
+  PhpCsFixer\Fixer\Whitespace\IndentationTypeFixer:  ~
+  PhpCsFixer\Fixer\ControlStructure\NoTrailingCommaInListCallFixer:  ~
+  PhpCsFixer\Fixer\ArrayNotation\NoTrailingCommaInSinglelineArrayFixer:  ~
+  PhpCsFixer\Fixer\Whitespace\NoTrailingWhitespaceFixer:  ~
+  PhpCsFixer\Fixer\Comment\NoTrailingWhitespaceInCommentFixer:  ~
+  PhpCsFixer\Fixer\ControlStructure\NoUnneededControlParenthesesFixer:  ~
+  PhpCsFixer\Fixer\Import\NoUnusedImportsFixer:  ~
+  PhpCsFixer\Fixer\ReturnNotation\NoUselessReturnFixer:  ~
+  PhpCsFixer\Fixer\ArrayNotation\NoWhitespaceBeforeCommaInArrayFixer:  ~
+  PhpCsFixer\Fixer\Whitespace\NoWhitespaceInBlankLineFixer:  ~
+  PhpCsFixer\Fixer\ArrayNotation\NormalizeIndexBraceFixer:  ~
+  PhpCsFixer\Fixer\Operator\ObjectOperatorWithoutWhitespaceFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocIndentFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocInlineTagFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocNoAccessFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocNoPackageFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocNoUselessInheritdocFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocScalarFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocSingleLineVarSpacingFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocSummaryFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocToCommentFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocTrimFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocSeparationFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocTypesFixer:  ~
+  PhpCsFixer\Fixer\Phpdoc\PhpdocVarWithoutNameFixer:  ~
+  PhpCsFixer\Fixer\Operator\ConcatSpaceFixer:
+    spacing: one
+  PhpCsFixer\Fixer\Import\OrderedImportsFixer:
+    sortAlgorithm: alpha
+  PhpCsFixer\Fixer\ArrayNotation\ArraySyntaxFixer:
+    syntax: short
+  PhpCsFixer\Fixer\Operator\BinaryOperatorSpacesFixer:  ~
+  PhpCsFixer\Fixer\ClassNotation\VisibilityRequiredFixer:
+    elements: [const, property, method]
+  PhpCsFixer\Fixer\ListNotation\ListSyntaxFixer:
+    syntax: short
+  SlevomatCodingStandard\Sniffs\TypeHints\NullableTypeForNullDefaultValueSniff: ~
+  PhpCsFixer\Fixer\Whitespace\CompactNullableTypehintFixer: ~
+  PhpCsFixer\Fixer\Alias\RandomApiMigrationFixer:
+    mt_rand: random_int
+    rand: random_int
+  PhpCsFixer\Fixer\Operator\TernaryToNullCoalescingFixer: ~
+  Symplify\CodingStandard\Fixer\Strict\BlankLineAfterStrictTypesFixer: ~
+  PhpCsFixer\Fixer\LanguageConstruct\DeclareEqualNormalizeFixer: ~
+  PhpCsFixer\Fixer\FunctionNotation\ReturnTypeDeclarationFixer: ~
+  SlevomatCodingStandard\Sniffs\Exceptions\ReferenceThrowableOnlySniff: ~
+
+parameters:
+  skip:
+    PhpCsFixer\Fixer\ClassNotation\SelfAccessorFixer: ~
+    SlevomatCodingStandard\Sniffs\Exceptions\ReferenceThrowableOnlySniff.ReferencedGeneralException: ~
+
+  exclude_files:
+    - 'vendor/**.php'
+    - 'public/**.php'
+    - 'resources/views/**/*.blade.php'
+    - 'tests/**.php'
+    - 'routes/**.php'

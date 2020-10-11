@@ -1,0 +1,10 @@
+tasks:
+  ecs:
+    config: ./easy-coding-standard.yml
+    whitelist_patterns:
+      - vendor
+  composer: ~
+  file_size: ~
+  git_commit_message: ~
+  phpversion: ~
+  phpstan: ~

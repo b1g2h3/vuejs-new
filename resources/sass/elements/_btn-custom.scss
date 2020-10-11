@@ -1,0 +1,49 @@
+.btn-custom {
+    @apply .shadow .bg-blue-800 .text-white .font-bold .py-2 .px-4 .rounded;
+    &:focus {
+        @apply .shadow-outline .outline-none;
+    }
+    &:hover {
+        @apply .bg-blue-600;
+    }
+}
+
+.btn-edit {
+    @apply .shadow .bg-blue-600 .py-2 .px-4 .text-white .rounded .font-bold;
+
+    &:hover {
+        @apply .bg-blue-800;
+    }
+}
+
+.btn-edit-trans {
+    @apply .bg-transparent .text-blue-600 .font-semibold .py-2 .px-4 .border .border-blue-500 .rounded;
+
+    &:hover {
+        @apply .border-transparent .bg-blue-500 .text-white;
+    }
+}
+
+.btn-delete {
+    @apply .shadow .bg-red-600 .py-2 .px-4 .text-white .rounded .font-bold;
+
+    &:hover {
+        @apply .bg-red-800;
+    }
+}
+
+.btn-delete-trans {
+    @apply .bg-transparent .text-black .font-semibold .py-2 .px-4 .border .border-red-700 .rounded;
+
+    &:hover {
+        @apply .border-transparent .bg-red-700 .text-white;
+    }
+}
+
+.btn-search {
+    @apply .pt-2 .appearance-none .text-black .block .w-full  .border  .rounded .py-3 .px-4 .leading-tight;
+
+    &:hover {
+        @apply .outline-none .bg-white;
+    }
+}

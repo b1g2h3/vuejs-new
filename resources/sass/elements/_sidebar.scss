@@ -1,0 +1,11 @@
+.sidebar {
+    @apply .text-primary .font-semibold;
+
+    .name {
+        @apply .text-junglegreen .mt-6 .text-xl .bg-transparent;
+    }
+
+    .menu {
+        @apply .flex .flex-col .shadow .border-t-4 .text-secondary .border-b-4 .border-primary .shadow .rounded-lg .shadow-lg .p-1 .bg-primary;
+    }
+}
